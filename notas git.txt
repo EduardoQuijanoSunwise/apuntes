@@ -1,0 +1,2 @@
+Para iniciar un nuevo repositorio:
+ola
