@@ -1,0 +1,23 @@
+Pasos a seguir para iniciar programa montado en docker:
+-Terminal_
+    -cd 
+    -pwd
+    -development
+    -sunwise-automation
+            ABRIR docker
+    -code .
+    -docker compose -f docker-compose.arm.yml -f docker-compose.override.yml up -d
+Visual Studio
+    -remote xplorer
+    -sunwise-automation qa 
+    -nueva ventana
+    -mandarla a otro escritorio 
+Selenium Grid
+    -local host:4444
+Python
+    -test_success_login.Py
+    -guardar cambios
+Virtual Studio
+    -source control
+    -subir commit
+    
