@@ -1,2 +1,40 @@
-Para iniciar un nuevo repositorio:
-ola
+Para crear la carpeta un nuevo repositorio:
+    -mkdir "nombre del repositorio (esto es para crear una carpeta)
+    -cd "nombre del repositorio"
+
+Para crear nuevo repositorio:
+    -git init     #inicia el repositorio
+    -git add "nombre del archivo" o git add . (para añadir todos los archivos)
+    -git commit -m "mensaje del commit"
+    git commit --amend (editar el ultimo commit)
+
+Para conectar el repositorio de local a uno remoto:
+    -git remote add origin "URL del repo"
+    -git push -u origin master (enviar cambios)
+
+Para configurar donde se van a subir:
+    -git config --global user.name "Eduardo Quijano"
+    -git config --global user.email "eduardo@sunwise.io"
+    -git config --global --list
+    -git status 
+
+Para crear una nueva rama 
+    -git branch "nombre de la rama"
+    -git checkout "nombre de la rama"
+    -git branch (ver las ramas)
+    -git merge "nombre de la rama" (fusionar rama)
+
+Trabajando remoto
+    -git remote -v (ver los remotos configurados)
+    
+    -git clone "URL" 
+    -git diff (ver cambios no confirmados)
+
+
+
+LOS MAS IMPORTANTES
+-git clone "URL" 
+-git init     #inicia el repositorio
+-git add "nombre del archivo" o git add . (para añadir todos los archivos)
+-git commit -m "mensaje del commit"
+-git push origin main (sincronizar con el remoto)
