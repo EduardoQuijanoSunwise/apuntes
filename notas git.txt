@@ -38,3 +38,8 @@ LOS MAS IMPORTANTES
 -git add "nombre del archivo" o git add . (para añadir todos los archivos)
 -git commit -m "mensaje del commit"
 -git push origin main (sincronizar con el remoto)
+
+Para subir cambios 
+    -git add -A 
+    -git commit -m "mensaje del commit"
+    -git push
